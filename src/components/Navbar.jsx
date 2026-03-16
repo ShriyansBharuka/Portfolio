@@ -44,7 +44,6 @@ const Navbar = () => {
         >
           <span className="text-[#06d6f7]">S</span>
           <span className="text-white">B</span>
-          <span className="text-[#a855f7] ml-1 text-xs font-mono opacity-70">/ 251080012</span>
         </a>
 
         {/* Desktop links */}
