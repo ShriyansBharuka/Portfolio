@@ -40,21 +40,8 @@ const Hero = () => {
   }
 
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center px-6 overflow-hidden">
-      {/* Top status bar */}
-      <motion.div
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.2 }}
-        className="flex items-center gap-3 mb-10 font-mono text-xs text-gray-500 border border-gray-800 rounded-full px-4 py-2"
-      >
-        <span className="w-2 h-2 rounded-full bg-[#10f0a0] animate-pulse2" />
-        <span>FY IT @ VJTI Mumbai</span>
-        <span className="text-gray-700">|</span>
-        <span>Roll No: 251080012</span>
-        <span className="text-gray-700">|</span>
-        <span className="text-[#06d6f7]">Open to Internships</span>
-      </motion.div>
+    <section className="relative min-h-screen flex flex-col items-center justify-center px-6 pt-20 overflow-hidden">
+      
 
       {/* Main name */}
       <div className="text-center mb-6">
