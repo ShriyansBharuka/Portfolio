@@ -12,7 +12,7 @@ const projects = [
       'Full-stack BMS for a uniform manufacturing company. Features RBAC, enquiry/quotation/order management, PDF generation, and role-based module access. Deployed on Vercel + Render with MongoDB Atlas.',
     tags: ['React', 'FastAPI', 'MongoDB', 'Python', 'Vercel', 'RBAC', 'PDF Gen'],
     github: 'https://github.com/ShriyansBharuka',
-    live: 'https://lynxfashions.vercel.app',
+    live: 'https://lynx-fashions.vercel.app',
     icon: FiLayers,
     accent: '#06d6f7',
     status: 'Live',
